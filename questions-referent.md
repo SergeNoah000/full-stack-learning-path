@@ -1,5 +1,7 @@
 # 🗒️ Journal des questions pour le référent
 
+> 🛰️ Ce fichier est **poussé sur ta branche** avec ton journal : le référent lit tes questions en attente avant le point, et arrive avec des réponses préparées ([consigne](guides/suivi-a-distance.md)).
+>
 > Avant d'écrire ici : la règle des 3 — (1) doc/web, (2) IA, (3) reformulation écrite ci-dessous.
 > Souvent, l'étape 3 résout le problème toute seule. Si oui, note quand même la question et marque-la ✅ résolu seul — c'est un excellent indicateur de progression.
 

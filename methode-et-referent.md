@@ -39,8 +39,24 @@ L'humain du dispositif. Il ne remplace ni la doc ni l'IA — il apporte ce qu'el
 
 ## 📋 Protocole référent
 
+### Le suivi continu : les journaux, par Git
+
+Entre deux points, le référent n'a pas à relancer qui que ce soit : **chaque apprenant travaille dans sa propre branche** (`apprenant/prenom`) et y pousse son journal à la fin de chaque session. Le référent lit tout à distance, quand il veut.
+
+```bash
+./scripts/journaux.sh              # synthèse de tous les apprenants : régularité, palier, dernière entrée
+./scripts/journaux.sh serge        # les dernières entrées d'un apprenant
+```
+
+Dix minutes par semaine suffisent, en cherchant quatre choses : la **régularité** (l'indicateur n°1), un champ « bloqué sur » qui revient à l'identique, l'absence d'objectif écrit avant les sessions, et l'écart entre les entrées et `progression.md`.
+
+L'intérêt principal est là : **arriver au point référent en ayant déjà lu**. Les trente premières minutes ne servent plus à reconstituer la situation, elles servent à traiter le fond.
+
+Consigne complète côté apprenant et commandes côté référent : [guides/suivi-a-distance.md](guides/suivi-a-distance.md).
+
 ### Le rituel : point toutes les 2 semaines (30–60 min)
 Ordre du jour type :
+0. **Préparation du référent** (avant le point, 10 min) : lecture des journaux poussés → `./scripts/journaux.sh`.
 1. **Démo** : montrer ce qui a été construit (même petit, même cassé).
 2. **Questions préparées** : celles accumulées dans `questions-referent.md` qui ont survécu à la règle des 3.
 3. **Déblocages de fond** : les points où tu tournes en rond depuis plus d'une semaine.
