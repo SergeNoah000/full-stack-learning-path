@@ -19,7 +19,18 @@
 
 ## 📘 Les leçons
 
-👉 **[Plan des 8 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
+👉 **[Plan détaillé et conseils de travail](lecons/README.md)** — les 8 leçons sont rédigées.
+
+| # | Leçon | Volume |
+|---|-------|--------|
+| 01 | [TypeScript : types de base, inférence, `strict`](lecons/01-typescript-les-bases.md) | 4 h |
+| 02 | [TypeScript : `interface`/`type`, unions, génériques](lecons/02-typescript-interfaces-unions-generiques.md) | 4 h |
+| 03 | [React : composants, JSX, props](lecons/03-react-composants-jsx-props.md) | 4 h |
+| 04 | [L'état : `useState` et remontée d'état](lecons/04-etat-usestate.md) | 5 h |
+| 05 | [Les effets : `useEffect`, et quand ne pas l'utiliser](lecons/05-effets-useeffect.md) | 4 h |
+| 06 | [Listes, clés, rendu conditionnel, formulaires contrôlés](lecons/06-listes-cles-formulaires.md) | 4 h |
+| 07 | [React Router, Context, custom hooks](lecons/07-router-context-hooks.md) | 5 h |
+| 08 | [TanStack Query et Tailwind CSS](lecons/08-tanstack-query-tailwind.md) | 5 h |
 
 ## Module 1 : TypeScript d'abord
 
