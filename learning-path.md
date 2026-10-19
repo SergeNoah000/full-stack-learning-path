@@ -3,7 +3,8 @@
 > **Profil** : débutant total → développeur fullstack polyglotte
 > **Stack** : JavaScript/TypeScript · Python (natif → Flask, FastAPI, Django) · PHP (natif + Apache/.htaccess → Laravel) · Flutter/Dart · Architecture · DevOps · IA · Gestion de projet
 > **Méthode** : autodidacte + IA + web + référent senior — voir [methode-et-referent.md](methode-et-referent.md)
-> **Progression** : par paliers validés par checkpoints. Le temps n'est pas la mesure ; le checkpoint l'est.
+> **Progression** : par paliers validés par une **épreuve de sortie** (`evaluation.md` dans chaque palier) — épreuves pratiques sans aide, quiz, livrables. Le temps n'est pas la mesure ; l'épreuve l'est.
+> **Suivi** : un seul tableau de bord → [progression.md](progression.md). Volume indicatif total : **15 à 24 mois** à ~10 h/semaine (détail par palier dans progression.md).
 
 ## La logique du parcours
 
@@ -12,6 +13,21 @@
 3. **Le natif avant le framework.** Pour Python et PHP, tu construiras d'abord sans framework (WSGI maison, PHP natif + .htaccess, MVC fait main avec router/modèles/vues) pour comprendre exactement ce que Flask, Django et Laravel automatisent. Un dev qui connaît le dessous des frameworks débogue ce que les autres subissent.
 4. **Chaque projet se déploie**, sur une plateforme différente à chaque fois (GitHub Pages → Vercel → Render → AWS free tier → VPS du référent) — voir [deploiements.md](deploiements.md).
 5. **La gestion de projet grandit avec toi** : d'une page d'objectifs (palier 2) à un cycle complet conception → cahier des charges → devis → suivi → recette (palier 10) — voir [gestion-de-projet.md](gestion-de-projet.md).
+
+## Comment un palier se travaille
+
+Chaque dossier `palier-XX-.../` contient toujours la même chose :
+
+| Fichier | Rôle |
+|---------|------|
+| `README.md` | Les **objectifs vérifiables** du palier, le plan des leçons, les modules, les fils rouges, le checkpoint |
+| `lecons/` | **Les leçons**, à faire dans l'ordre : définitions → principe → méthode essentielle → à lire → exercices corrigés → critères « Acquis si… » |
+| `guides/` | Les procédures pas-à-pas propres au palier (installer, configurer, déployer) |
+| `projet.md` | Le brief du projet jalon, ses livrables de gestion de projet, sa définition de « fini » |
+| `evaluation.md` | **L'épreuve de sortie** : la barrière du palier |
+| `journal.md` | Ton carnet de bord, rempli à chaque session |
+
+À quoi s'ajoutent, à la racine : les [guides transversaux](guides/), les [templates](templates/README.md), le [glossaire](glossaire.md), les [ressources](ressources.md) et le registre de [katas](katas.md).
 
 ## Les paliers
 
@@ -24,7 +40,7 @@
 | 4 | [Backend #1 : Node.js](palier-04-backend-node/README.md) | REST, SQL, auth, sécurité, tests — les concepts, une fois pour toutes | App fullstack | **Render** |
 | 5 | [Backend #2 : Python](palier-05-backend-python/README.md) | Le langage → WSGI/mini-framework maison → Flask → FastAPI → Django | App de gestion Django | **AWS free tier** |
 | 6 | [Backend #3 : PHP](palier-06-backend-php/README.md) | PHP natif + Apache/.htaccess → MVC maison (router, modèles, vues) → Laravel | MVC maison **et** app métier Laravel | **Mutualisé/VPS Apache** (référent) |
-| 7 | [Architecture](palier-07-architecture/README.md) | SOLID, patterns, system design, comparatif des 3 stacks | Document d'architecture | — |
+| 7 | [Architecture](palier-07-architecture/README.md) | SOLID, patterns, system design, comparatif des 3 stacks | Refactoring du P4 + document d'architecture | — |
 | 8 | [DevOps](palier-08-devops/README.md) | Linux, Docker, CI/CD, monitoring, coûts d'infra | Les 3 backends dockerisés + pipeline | **VPS** (référent) |
 | 9 | [Mobile Flutter](palier-09-mobile-flutter/README.md) | Dart, widgets, état, hors-ligne | App mobile sur ton backend | APK / Play Store |
 | 10 | [Projet final & emploi](palier-10-projet-final-emploi/README.md) | Produit complet + portfolio + entretiens | Produit avec vrais utilisateurs | **VPS + domaine** |
@@ -49,4 +65,4 @@
 6. **L'isolement** : le référent + les communautés (GDG, Discords) dès le début — et le point "juste pour parler" quand ça flanche.
 
 ---
-*v3 — structure en dossiers, natif avant framework, gestion de projet et déploiements variés intégrés.*
+*v4 — leçons, guides, épreuves de sortie et templates ajoutés ; objectifs d'apprentissage et prérequis explicités par palier ; tableau de bord unique ([progression.md](progression.md)).*

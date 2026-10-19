@@ -1,6 +1,27 @@
 # Palier 2 — Frontend : HTML, CSS, JavaScript navigateur
 
 > 🎯 **Objectif** : construire des pages web complètes, belles et interactives, à la main. Quel que soit le backend plus tard (Node, Python ou PHP), le frontend, c'est TOUJOURS ça.
+> ⏱️ **Volume indicatif** : 5 à 8 semaines (50–80 h). *Le checkpoint est la mesure, pas le calendrier.*
+> 📍 **Prérequis** : [épreuve du palier 1](../palier-01-programmer-javascript/evaluation.md) réussie — tu sais programmer.
+
+## 🎓 Ce que tu sauras faire à la fin
+
+1. Écrire du HTML **sémantique** et accessible, validé sans erreur.
+2. Construire un formulaire complet avec validation native et JS, utilisable au clavier.
+3. Maîtriser le box model, la spécificité et les unités CSS.
+4. Mettre en page avec **Flexbox** et **Grid**, et savoir lequel choisir.
+5. Rendre une page **responsive mobile-first** de 320 px à 1920 px.
+6. Reproduire une maquette depuis une capture d'écran, sans framework CSS ni tutoriel.
+7. Manipuler le DOM : sélectionner, créer, modifier, supprimer.
+8. Gérer les événements, dont la **délégation**, et les formulaires côté client.
+9. Consommer une API dans le navigateur en traitant les états chargement / erreur / données.
+10. Persister des préférences avec `localStorage`, et connaître ses limites.
+11. Séparer les responsabilités : appels réseau, DOM, logique, dans des fichiers distincts.
+12. Déployer un site statique et en donner l'URL publique.
+
+## 📘 Les leçons
+
+👉 **[Plan des 9 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
 
 ## Module 1 : HTML
 
@@ -59,3 +80,7 @@ Voir [projet.md](projet.md). **Première apparition du fil rouge gestion de proj
 - [ ] Flexbox et Grid sans documentation pour les cas courants.
 - [ ] Projet 2 **en ligne sur GitHub Pages**, URL dans mon profil GitHub.
 - [ ] Mini-cadrage rédigé AVANT le code (vérifiable dans l'historique Git).
+
+### 🚦 [Passer l'épreuve de sortie →](evaluation.md)
+
+> Les objectifs ci-dessus sont **vérifiés** par l'épreuve, pas auto-déclarés. Tant qu'elle n'est pas réussie, le palier suivant reste fermé.

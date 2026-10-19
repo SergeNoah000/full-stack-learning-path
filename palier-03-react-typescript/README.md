@@ -1,6 +1,25 @@
 # Palier 3 — Frontend moderne : React + TypeScript
 
 > 🎯 **Objectif** : maîtriser l'outil frontend le plus demandé du marché. Il servira de client à TOUS tes backends (Node, Python, PHP).
+> ⏱️ **Volume indicatif** : 5 à 8 semaines (50–80 h). *Le checkpoint est la mesure, pas le calendrier.*
+> 📍 **Prérequis** : [épreuve du palier 2](../palier-02-frontend-web/evaluation.md) réussie — HTML, CSS et DOM maîtrisés.
+
+## 🎓 Ce que tu sauras faire à la fin
+
+1. Typer du code existant en TypeScript `strict`, sans aucun `any`.
+2. Utiliser interfaces, unions discriminées et génériques à bon escient.
+3. Construire des composants React avec props et composition.
+4. Placer l'état au bon niveau (`useState`, remontée d'état) et ne jamais le muter.
+5. Utiliser `useEffect` correctement — et savoir les cas où il ne faut pas l'utiliser.
+6. Gérer listes, clés et formulaires contrôlés.
+7. Naviguer avec React Router, utiliser Context là où c'est justifié, extraire des custom hooks.
+8. Gérer l'état serveur avec TanStack Query et styliser avec Tailwind.
+9. Organiser un projet **par feature**, logique métier hors des composants.
+10. Livrer et déployer une SPA multi-pages consommant une API.
+
+## 📘 Les leçons
+
+👉 **[Plan des 8 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
 
 ## Module 1 : TypeScript d'abord
 
@@ -57,3 +76,7 @@ Voir [projet.md](projet.md). Gestion de projet enrichie (user stories, Figma, ka
 - [ ] TypeScript strict sur tout nouveau code, sans exception.
 - [ ] Je sais expliquer `useState` vs `useEffect` vs TanStack Query (quel outil pour quel problème).
 - [ ] Projet 3 déployé sur **Vercel**, kanban terminé, user stories toutes livrées ou explicitement abandonnées.
+
+### 🚦 [Passer l'épreuve de sortie →](evaluation.md)
+
+> Les objectifs ci-dessus sont **vérifiés** par l'épreuve, pas auto-déclarés. Tant qu'elle n'est pas réussie, le palier suivant reste fermé.

@@ -1,6 +1,26 @@
 # Palier 4 — Backend #1 : Node.js/TypeScript + SQL
 
 > 🎯 **Objectif** : apprendre LES CONCEPTS du backend une fois pour toutes, dans un langage déjà maîtrisé. Tout ce palier se transfère à Python (palier 5) et PHP (palier 6). C'est ici que tu deviens fullstack.
+> ⏱️ **Volume indicatif** : 8 à 12 semaines (80–120 h). *Le checkpoint est la mesure, pas le calendrier.*
+> 📍 **Prérequis** : [épreuve du palier 3](../palier-03-react-typescript/evaluation.md) réussie.
+
+## 🎓 Ce que tu sauras faire à la fin
+
+1. Écrire un serveur HTTP sans framework, et nommer ce qu'un framework apporte.
+2. Construire une API Express structurée avec middlewares et gestion d'erreurs centralisée.
+3. Concevoir une API **REST** : ressources, verbes, codes de statut.
+4. Valider toute entrée côté serveur et gérer la configuration par variables d'environnement.
+5. Écrire du **SQL à la main**, `JOIN` compris, et modéliser des relations 1-N et N-N.
+6. Créer et versionner des **migrations**, utiliser un ORM sans en être prisonnier.
+7. Implémenter une authentification complète (hachage, sessions **et** JWT) et une autorisation par rôle.
+8. Démontrer puis corriger une injection SQL et une XSS sur ton propre code.
+9. Écrire des tests unitaires et d'intégration, et justifier ce que tu ne testes pas.
+10. Découper une application en couches : routes → contrôleurs → services → données.
+11. Déployer une API avec sa base de données managée.
+
+## 📘 Les leçons
+
+👉 **[Plan des 10 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
 
 ## Module 1 : Le serveur HTTP nu (comprendre avant le framework)
 
@@ -67,3 +87,7 @@ Voir [projet.md](projet.md). Premier **cahier des charges complet**, estimation 
 - [ ] J'écris du SQL de base (JOIN inclus) **sans ORM**.
 - [ ] Je peux expliquer sessions vs JWT et montrer une injection SQL (et sa parade).
 - [ ] Projet 4 déployé sur **Render**, testé, documenté (README + ARCHITECTURE.md), revu par le référent.
+
+### 🚦 [Passer l'épreuve de sortie →](evaluation.md)
+
+> Les objectifs ci-dessus sont **vérifiés** par l'épreuve, pas auto-déclarés. Tant qu'elle n'est pas réussie, le palier suivant reste fermé.

@@ -1,6 +1,25 @@
 # Palier 9 — Mobile : Flutter + Dart
 
 > 🎯 **Objectif** : livrer une app mobile complète, connectée à TON propre backend déployé. La preuve par le mobile que ton socle est universel : ton app parlera REST à n'importe lequel de tes trois backends.
+> ⏱️ **Volume indicatif** : 5 à 8 semaines (50–80 h). *Le checkpoint est la mesure, pas le calendrier.*
+> 📍 **Prérequis** : [épreuve du palier 8](../palier-08-devops/evaluation.md) réussie — tu as une API déployée à laquelle parler.
+
+## 🎓 Ce que tu sauras faire à la fin
+
+1. Écrire du Dart idiomatique avec une **null safety** strictement respectée.
+2. Utiliser Futures et Streams, et savoir lequel pour quel besoin.
+3. Construire une interface Flutter à partir d'une maquette, avec thème et mode sombre.
+4. Gérer l'état local (`setState`) puis partagé (**Riverpod**) — en sachant pourquoi tu changes d'outil.
+5. Naviguer entre écrans, passer des données et récupérer un résultat.
+6. Consommer **ton** API : authentification, sérialisation JSON, CRUD.
+7. Traiter **systématiquement** les quatre états d'écran : chargement, erreur, vide, données.
+8. Mettre en place un **mode hors-ligne** : cache local, file d'écritures, stratégie de conflit.
+9. Intégrer une fonctionnalité IA dont la clé reste **côté serveur**.
+10. Construire, signer et distribuer un APK à de vrais utilisateurs, et traiter leurs retours.
+
+## 📘 Les leçons
+
+👉 **[Plan des 9 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
 
 ## Module 1 : Dart
 
@@ -66,3 +85,7 @@ Voir [projet.md](projet.md). Auth, CRUD, hors-ligne, et distribution **APK réel
 - [ ] Elle parle à MON backend déployé (auth incluse) et survit à une coupure réseau.
 - [ ] Je sais expliquer mon choix de gestion d'état et ma stratégie hors-ligne.
 - [ ] Une fonctionnalité IA en production dans l'app.
+
+### 🚦 [Passer l'épreuve de sortie →](evaluation.md)
+
+> Les objectifs ci-dessus sont **vérifiés** par l'épreuve, pas auto-déclarés. Tant qu'elle n'est pas réussie, le palier suivant reste fermé.

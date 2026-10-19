@@ -1,6 +1,25 @@
 # Palier 10 — Projet final, portfolio & emploi
 
 > 🎯 **Objectif** : assembler TOUT le parcours en un produit réel avec de vrais utilisateurs, puis convertir ça en emploi ou en missions.
+> ⏱️ **Volume indicatif** : 8 à 12 semaines (80–120 h). *Le checkpoint est la mesure, pas le calendrier.*
+> 📍 **Prérequis** : [épreuve du palier 9](../palier-09-mobile-flutter/evaluation.md) réussie — **tout** le parcours technique est derrière toi.
+
+## 🎓 Ce que tu sauras faire à la fin
+
+1. Cadrer un produit depuis un problème réel de ton entourage.
+2. Dérouler **seul** un cycle de projet complet : conception → cahier des charges → chiffrage → planification → suivi → recette → bilan.
+3. Assembler un produit multi-clients (web + mobile + API) en justifiant chaque choix.
+4. Opérer ce produit en production : CI/CD, monitoring, sauvegardes testées, incidents.
+5. Mesurer ton **coefficient d'estimation réel** et l'annoncer en entretien.
+6. Présenter ton travail : portfolio, GitHub soigné, CV d'une page, LinkedIn.
+7. Faire une **démo de 5 minutes** rodée, compréhensible par un non-technicien.
+8. Réussir un entretien technique junior : algo 6 kyu, révisions ciblées, questions de méthode.
+9. Répondre de façon convaincante à « comment utilises-tu l'IA ? ».
+10. Activer un réseau et envoyer de vraies candidatures ou propositions de mission.
+
+## 📘 Les leçons
+
+👉 **[Plan des 6 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
 
 ## Module 1 : 🛠️ Projet 8 — Le produit final
 
@@ -57,3 +76,7 @@ Voir [projet.md](projet.md). Un produit complet résolvant un problème réel de
 ## Et après ?
 
 Le métier s'apprend en le faisant. Pistes de croissance post-parcours : approfondir une stack en fonction du premier poste, certifications cloud si l'employeur les valorise, contribution open source (un bon `good first issue` sur un outil que tu utilises), mentorer à ton tour un débutant — rien ne consolide mieux.
+
+### 🚦 [Passer l'épreuve de sortie →](evaluation.md)
+
+> Les objectifs ci-dessus sont **vérifiés** par l'épreuve, pas auto-déclarés. Tant qu'elle n'est pas réussie, le palier suivant reste fermé.

@@ -1,6 +1,24 @@
 # Palier 7 — Architecture logicielle
 
 > 🎯 **Objectif** : passer de « ça marche » à « c'est bien conçu ». Ton profil trilingue backend + tes deux frameworks construits à la main rendent ce palier concret : tu as déjà VU trois réponses différentes aux mêmes problèmes.
+> ⏱️ **Volume indicatif** : 3 à 4 semaines (30–40 h). *Le checkpoint est la mesure, pas le calendrier.*
+> 📍 **Prérequis** : [épreuve du palier 6](../palier-06-backend-php/evaluation.md) réussie — tu as **trois** backends derrière toi.
+
+## 🎓 Ce que tu sauras faire à la fin
+
+1. Appliquer SOLID (S, O, D en priorité) à **ton** code, pas à des exemples abstraits.
+2. Reconnaître le « mauvais DRY » et savoir quand ne pas factoriser.
+3. Refactoriser du code existant **sans changer son comportement**, par petits commits testés.
+4. Identifier les patterns que tu utilises déjà (Repository, Active Record, Observer, Strategy).
+5. Justifier le choix d'un monolithe modulaire — et nommer ce que les microservices coûtent.
+6. Concevoir le caching, la pagination, le rate limiting et l'idempotence d'un système.
+7. Expliquer le *statelessness* et la scalabilité horizontale.
+8. Rédiger un **document d'architecture** et le **défendre à l'oral**, schéma au tableau.
+9. Comparer Express, Django et Laravel sur des critères, pas des goûts.
+
+## 📘 Les leçons
+
+👉 **[Plan des 7 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
 
 ## Module 1 : Principes de conception
 
@@ -28,6 +46,12 @@
   - une plateforme de commande/livraison locale.
 - [ ] Contenu : contexte et contraintes, schéma, **choix de stack justifié parmi tes trois** (+ pourquoi pas les deux autres), modèle de données, points de défaillance et parades, plan d'évolution (10 → 10 000 utilisateurs).
 - [ ] Passe-le au double crible : l'IA en interviewer system design, puis le référent en comité d'architecture.
+
+## 🛠️ Livrables du palier
+
+Voir [projet.md](projet.md) — ce palier n'a pas d'application à coder, mais **deux livrables de métier** :
+1. **Le refactoring du projet 4** — l'exercice le plus formateur du parcours.
+2. **Le document d'architecture**, rédigé puis **défendu** face au référent en comité d'architecture ([template](../templates/document-architecture.md)).
 
 ## 🏗️ Le comparatif final des stacks
 
@@ -63,3 +87,7 @@ Consolide en un document unique (il resservira en entretien) :
 - [ ] Le refactoring du projet 4 est commité, tests au vert.
 - [ ] Je dessine et défends l'architecture d'une app web classique sans notes.
 - [ ] Document d'architecture rédigé et challengé (IA + référent).
+
+### 🚦 [Passer l'épreuve de sortie →](evaluation.md)
+
+> Les objectifs ci-dessus sont **vérifiés** par l'épreuve, pas auto-déclarés. Tant qu'elle n'est pas réussie, le palier suivant reste fermé.

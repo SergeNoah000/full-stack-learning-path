@@ -1,6 +1,26 @@
 # Palier 5 — Backend #2 : Python (natif → Flask → FastAPI → Django)
 
 > 🎯 **Objectif** : ton deuxième langage backend — et la porte d'entrée vers la data et l'IA. Grâce au palier 4 tu n'apprends plus les concepts, seulement leur expression en Python. **Et tu passes SOUS les frameworks avant de les utiliser** : tu construiras un mini-framework toi-même.
+> ⏱️ **Volume indicatif** : 8 à 12 semaines (80–120 h). *Le checkpoint est la mesure, pas le calendrier.*
+> 📍 **Prérequis** : [épreuve du palier 4](../palier-04-backend-node/evaluation.md) réussie — REST, SQL, auth et sécurité **acquis**.
+
+## 🎓 Ce que tu sauras faire à la fin
+
+1. Écrire du Python idiomatique et typé (`mypy` propre), avec un `venv` par projet.
+2. Expliquer **WSGI** et écrire une application web Python sans aucun framework.
+3. Construire ton **mini-framework** : routeur, Request/Response, vues, modèles, templates.
+4. Expliquer, pour chaque brique d'un framework, le problème qu'elle résout — parce que tu l'as écrite.
+5. Servir une application Python en production avec gunicorn derrière un reverse proxy.
+6. Livrer avec Flask, FastAPI et Django, et **choisir entre les trois avec des critères**.
+7. Utiliser Pydantic et exploiter une documentation OpenAPI générée automatiquement.
+8. Maîtriser l'ORM Django, ses migrations, son admin, et détecter un **N+1**.
+9. Exposer une API avec Django REST Framework (serializers, viewsets, permissions).
+10. Déployer sur une instance cloud brute, à la main — puis **nettoyer l'infrastructure**.
+11. Appeler une API d'IA depuis ton code en maîtrisant tokens, coûts et erreurs.
+
+## 📘 Les leçons
+
+👉 **[Plan des 11 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
 
 ## Module 1 : Le langage Python
 
@@ -76,3 +96,7 @@
 - [ ] Mon mini-framework fonctionne : je peux expliquer routeur, Request/Response, vues, modèles, templates — parce que je les ai écrits.
 - [ ] Je sais expliquer quand choisir Flask vs FastAPI vs Django (avec des critères, pas des goûts).
 - [ ] Projet 5 en ligne sur AWS (et instance nettoyée après validation !), admin Django exploitée, recette passée.
+
+### 🚦 [Passer l'épreuve de sortie →](evaluation.md)
+
+> Les objectifs ci-dessus sont **vérifiés** par l'épreuve, pas auto-déclarés. Tant qu'elle n'est pas réussie, le palier suivant reste fermé.

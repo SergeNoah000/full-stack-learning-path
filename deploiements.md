@@ -12,8 +12,8 @@
 | P5 — App Django | App Python + BDD | **AWS free tier** (EC2) | Le cloud "brut" : instance, groupe de sécurité, gunicorn + Nginx à la main ; ⚠️ configurer les alertes de facturation AVANT tout |
 | P6 — MVC PHP natif + Laravel | Apache/PHP | **Hébergement mutualisé (cPanel) ou VPS Apache** — accès fourni par le référent | Le monde réel de PHP : Apache, `.htaccess`, FTP/SFTP, MySQL via phpMyAdmin — l'environnement de 90% des sites PHP existants |
 | Palier 8 — exercices DevOps | Les 3 backends dockerisés | **VPS** (accès fourni par le référent) | Docker en prod, reverse proxy, HTTPS Let's Encrypt, CI/CD complet |
-| P7 (mobile) — App Flutter | APK/AAB | **Distribution APK directe** (+ Play Store si budget, 25 $ une fois) | Signature d'app, canaux de distribution hors store (très courant localement) |
-| P8 — Projet final | Web + mobile + API | **VPS + nom de domaine** | Production complète : Docker Compose, CI/CD, HTTPS, monitoring, sauvegardes |
+| P7 (palier 9) — App Flutter | APK/AAB | **Distribution APK directe** (+ Play Store si budget, 25 $ une fois) | Signature d'app, canaux de distribution hors store (très courant localement) |
+| P8 (palier 10) — Projet final | Web + mobile + API | **VPS + nom de domaine** | Production complète : Docker Compose, CI/CD, HTTPS, monitoring, sauvegardes |
 
 ## Notes par plateforme
 

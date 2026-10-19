@@ -15,6 +15,22 @@
 | 9 | App mobile | **Suivi des retours utilisateurs** : collecte, priorisation (impact × effort), itérations | Le produit vit après la v1 |
 | 10 | Projet final | **Cycle complet de A à Z** : conception → cahier des charges → chiffrage → planification → suivi hebdo → recette → bilan (estimé vs réel). Le référent joue le client du cadrage à la recette | Dérouler seul un projet professionnel |
 
+## 📄 Les modèles prêts à l'emploi
+
+Tous les documents décrits ci-dessous existent comme **templates réutilisables** dans [templates/](templates/README.md). Règle d'usage : on ne modifie jamais le template, on le **copie** dans le dossier `docs/` du repo du projet concerné.
+
+| Template | Introduit au | Sert à |
+|----------|--------------|--------|
+| [mini-cadrage.md](templates/mini-cadrage.md) | Palier 2 | Dire en 1 page ce qu'on construit, avant de coder |
+| [user-stories.md](templates/user-stories.md) | Palier 3 | Exprimer les besoins et les découper en tâches < 2 h |
+| [cahier-des-charges.md](templates/cahier-des-charges.md) | Palier 4 | Le document de référence d'un projet complet |
+| [bilan-estime-reel.md](templates/bilan-estime-reel.md) | Palier 4 | Mesurer sa **vélocité** — la donnée la plus précieuse |
+| [cahier-de-recette.md](templates/cahier-de-recette.md) | Palier 5 | Vérifier formellement que c'est fini |
+| [devis.md](templates/devis.md) | Palier 6 | Chiffrer et défendre un prix |
+| [document-architecture.md](templates/document-architecture.md) | Palier 7 | Concevoir et justifier un système |
+| [readme-projet.md](templates/readme-projet.md) | Palier 1 | Le README de chaque repo (= ton CV technique) |
+| [retrospective-palier.md](templates/retrospective-palier.md) | Palier 0 | Le bilan obligatoire de fin de palier |
+
 ## 📄 Modèle de cahier des charges (introduit au palier 4, réutilisé ensuite)
 
 ```markdown
@@ -70,3 +86,4 @@ Comment on saura que c'est fini (base du cahier de recette).
 - **Pas une ligne de code avant le cadrage** (même 1 page). C'est le cadrage qui tue le "projet parfait jamais fini" : quand le must-have est livré, le projet est fini.
 - **Le périmètre exclu s'écrit noir sur blanc.** La plupart des projets meurent de ce qu'on a accepté d'ajouter.
 - **Toute estimation se confronte au réel.** Sinon ce n'est pas de l'estimation, c'est de la divination.
+- **Ta vélocité est une donnée, pas une opinion.** Tiens [templates/bilan-estime-reel.md](templates/bilan-estime-reel.md) du palier 4 au palier 10 : c'est lui qui transforme tes devis en estimations crédibles.

@@ -1,6 +1,29 @@
 # Palier 6 — Backend #3 : PHP (natif + Apache/.htaccess → MVC maison → Laravel)
 
 > 🎯 **Objectif** : le langage le plus présent sur le web en volume (WordPress, Laravel, des millions de sites sur mesure) — très demandé en missions freelance et projets locaux. **Ici encore : le natif d'abord.** Tu vivras toute l'expérience PHP — Apache, `.htaccess`, superglobales, PDO — et tu construiras un MVC complet à la main (router, modèles, vues) AVANT de toucher Laravel.
+> ⏱️ **Volume indicatif** : 8 à 12 semaines (80–120 h). *Le checkpoint est la mesure, pas le calendrier.*
+> 📍 **Prérequis** : [épreuve du palier 5](../palier-05-backend-python/evaluation.md) réussie.
+
+## 🎓 Ce que tu sauras faire à la fin
+
+1. Monter et administrer une stack LAMP, brique par brique.
+2. Expliquer le **modèle d'exécution PHP** et ses conséquences face à Node.
+3. Écrire des règles `.htaccess` (réécriture, protection, redirections) sans copier-coller.
+4. Écrire du PHP 8 moderne : typage, enums, `match`, namespaces.
+5. Manipuler les superglobales, sessions, cookies et uploads en connaissant leurs pièges.
+6. Accéder aux données avec PDO et des requêtes préparées, systématiquement.
+7. Utiliser Composer et l'autoloading PSR-4.
+8. Construire un **MVC complet à la main** : front controller, routeur, contrôleurs, modèles, vues.
+9. Implémenter une authentification maison avec sessions et **jeton CSRF**.
+10. Démontrer puis corriger injection SQL, XSS et CSRF sur ton propre code.
+11. Livrer une application Laravel complète (Eloquent, Blade, validation, Breeze, Artisan).
+12. Déployer sur un hébergement Apache réel (SFTP, phpMyAdmin, `.htaccess` actif).
+13. **Chiffrer et défendre un devis**, et gérer un changement de périmètre.
+14. Répondre à la question d'architecte : quelle stack pour ce projet, et pourquoi pas les autres.
+
+## 📘 Les leçons
+
+👉 **[Plan des 11 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
 
 ## Module 1 : L'environnement PHP réel — Apache & le modèle d'exécution
 
@@ -84,3 +107,7 @@ Voir [projet.md](projet.md) : une app de qualité « je pourrais la vendre », a
 - [ ] CRUD Laravel complet avec auth, sans tutoriel.
 - [ ] Projet 6b déployé sur un hébergement Apache réel, devis rédigé et défendu face au « client ».
 - [ ] Comparatif des 3 stacks (+ 2 frameworks maison) rédigé.
+
+### 🚦 [Passer l'épreuve de sortie →](evaluation.md)
+
+> Les objectifs ci-dessus sont **vérifiés** par l'épreuve, pas auto-déclarés. Tant qu'elle n'est pas réussie, le palier suivant reste fermé.

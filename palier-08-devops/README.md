@@ -1,6 +1,27 @@
 # Palier 8 — DevOps
 
 > 🎯 **Objectif** : savoir livrer, déployer et opérer ce que tu construis — dans les trois stacks. Compétence rare chez les juniors = gros avantage à l'embauche. **C'est ici que le référent fournit l'accès au VPS.**
+> ⏱️ **Volume indicatif** : 5 à 8 semaines (50–80 h). *Le checkpoint est la mesure, pas le calendrier.*
+> 📍 **Prérequis** : [épreuve du palier 7](../palier-07-architecture/evaluation.md) réussie · 🧑‍🏫 **accès VPS à demander au référent en avance**.
+
+## 🎓 Ce que tu sauras faire à la fin
+
+1. Administrer un Linux : utilisateurs, permissions, processus, services `systemd`, logs.
+2. Durcir un accès SSH et un pare-feu, et expliquer chaque décision.
+3. Configurer un reverse proxy et du HTTPS automatique.
+4. Écrire un `Dockerfile` multi-stage propre (image légère, utilisateur non-root).
+5. Orchestrer app + base + proxy avec Docker Compose, en un seul `up`.
+6. **Dockeriser trois runtimes différents** et expliquer ce que Docker uniformise.
+7. Construire un pipeline CI/CD complet : push → tests → build → déploiement automatique.
+8. Gérer des secrets et des environnements séparés sans jamais rien committer.
+9. Mettre en place logs, monitoring et alertes, et savoir ce que tu surveilles.
+10. Automatiser des sauvegardes **et réussir une restauration** (preuve à l'appui).
+11. Diagnostiquer méthodiquement une panne de production, couche par couche.
+12. Chiffrer le **TCO** d'une application sur un an, VPS vs PaaS vs cloud vs mutualisé.
+
+## 📘 Les leçons
+
+👉 **[Plan des 10 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
 
 ## Module 1 : Linux & réseau approfondis
 
@@ -49,6 +70,14 @@
 - [ ] Cartographie AWS/GCP : compute (EC2 — déjà pratiqué), storage (S3), BDD managées (RDS), serverless (Lambda) — conceptuel, pas de certification à ce stade.
 - [ ] Comprendre le modèle de facturation cloud (tu as l'alerte Budget du palier 5 en tête).
 
+## 🛠️ Livrables du palier
+
+Voir [projet.md](projet.md) — ce palier **met en production ce que tu as déjà construit** :
+1. **Les 3 backends dockerisés** (Node, Django, Laravel) — l'exercice révélateur du palier.
+2. **Le pipeline complet** : push → tests → build → déploiement automatique.
+3. **Le VPS de production** : sécurisé, monitoré, sauvegardé — avec une **restauration prouvée**.
+4. **L'évaluation des coûts** (TCO sur 1 an) avec tes chiffres réels.
+
 ## 📋 Fil rouge Gestion de projet — les coûts d'infrastructure
 
 - **Évaluation TCO sur 1 an** d'une même app : VPS vs PaaS (Render/Railway) vs cloud (AWS) vs mutualisé — tableau chiffré avec tes coûts réels relevés dans les journaux.
@@ -71,3 +100,7 @@
 - [ ] J'ai restauré une sauvegarde de BDD avec succès (preuve dans le journal).
 - [ ] Je déroule le diagnostic « le site est down » méthodiquement, couche par couche.
 - [ ] Tableau comparatif des coûts d'hébergement rédigé avec des chiffres réels.
+
+### 🚦 [Passer l'épreuve de sortie →](evaluation.md)
+
+> Les objectifs ci-dessus sont **vérifiés** par l'épreuve, pas auto-déclarés. Tant qu'elle n'est pas réussie, le palier suivant reste fermé.
