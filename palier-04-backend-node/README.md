@@ -20,7 +20,20 @@
 
 ## 📘 Les leçons
 
-👉 **[Plan des 10 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
+👉 **[Plan détaillé et conseils de travail](lecons/README.md)** — les 10 leçons sont rédigées.
+
+| # | Leçon | Volume |
+|---|-------|--------|
+| 01 | [Le serveur HTTP nu : comprendre avant le framework](lecons/01-le-serveur-http-nu.md) | 4 h |
+| 02 | [Express : routes, paramètres, middlewares](lecons/02-express-routes-middlewares.md) | 5 h |
+| 03 | [Concevoir une API REST : ressources, verbes, codes](lecons/03-concevoir-une-api-rest.md) | 4 h |
+| 04 | [Validation (Zod), erreurs centralisées, configuration et secrets](lecons/04-validation-erreurs-configuration.md) | 4 h |
+| 05 | [SQL : les bases, les agrégats, et les `JOIN`](lecons/05-sql-les-bases-et-les-joins.md) | 6 h |
+| 06 | [Modélisation relationnelle, relations N-N, index](lecons/06-modelisation-relations-index.md) | 5 h |
+| 07 | [ORM et migrations (Prisma)](lecons/07-orm-et-migrations.md) | 5 h |
+| 08 | [Authentification : sessions, JWT, hachage des mots de passe](lecons/08-authentification.md) | 5 h |
+| 09 | [Sécurité : l'OWASP Top 10 en pratique](lecons/09-securite-owasp.md) | 5 h |
+| 10 | [Tests unitaires et d'intégration (Vitest + Supertest)](lecons/10-tests.md) | 4 h |
 
 ## Module 1 : Le serveur HTTP nu (comprendre avant le framework)
 

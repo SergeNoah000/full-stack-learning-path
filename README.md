@@ -47,7 +47,7 @@ apprentissage/
 | **Épreuve** | `palier-XX/evaluation.md` | **Vérifier** : épreuves pratiques sans aide + quiz + livrables. C'est la barrière du palier |
 | **Template** | `templates/` | **Produire** un livrable professionnel (cadrage, devis, recette, architecture) |
 
-> ⏳ **État de rédaction** : les leçons des **paliers 0 à 3** sont écrites. Pour les paliers suivants, le `lecons/README.md` de chaque palier donne le plan arrêté des leçons à venir — et **toutes les épreuves de sortie sont déjà complètes**. Tu peux donc travailler n'importe quel palier avec les modules de son README et ses ressources.
+> ⏳ **État de rédaction** : les leçons des **paliers 0 à 4** sont écrites. Pour les paliers suivants, le `lecons/README.md` de chaque palier donne le plan arrêté des leçons à venir — et **toutes les épreuves de sortie sont déjà complètes**. Tu peux donc travailler n'importe quel palier avec les modules de son README et ses ressources.
 
 ## 🧭 Mode d'emploi
 
