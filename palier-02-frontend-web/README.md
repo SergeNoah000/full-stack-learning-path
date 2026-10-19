@@ -21,7 +21,19 @@
 
 ## 📘 Les leçons
 
-👉 **[Plan des 9 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
+👉 **[Plan détaillé et conseils de travail](lecons/README.md)** — les 9 leçons sont rédigées.
+
+| # | Leçon | Volume |
+|---|-------|--------|
+| 01 | [HTML sémantique et structure d'une page](lecons/01-html-semantique.md) | 3 h |
+| 02 | [Formulaires et accessibilité de base](lecons/02-formulaires-et-accessibilite.md) | 3 h |
+| 03 | [CSS : sélecteurs, spécificité, box model, unités](lecons/03-css-fondamentaux.md) | 4 h |
+| 04 | [Flexbox](lecons/04-flexbox.md) | 4 h |
+| 05 | [Grid et responsive mobile-first](lecons/05-grid-et-responsive.md) | 4 h |
+| 06 | [Transitions, transformations, animations](lecons/06-transitions-et-animations.md) | 2 h |
+| 07 | [Le DOM : sélectionner, créer, modifier](lecons/07-le-dom.md) | 4 h |
+| 08 | [Événements, délégation, formulaires côté client](lecons/08-evenements-et-formulaires.md) | 4 h |
+| 09 | [`fetch` dans le navigateur, `localStorage`, DevTools](lecons/09-fetch-localstorage-devtools.md) | 4 h |
 
 ## Module 1 : HTML
 
