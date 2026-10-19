@@ -19,7 +19,16 @@
 
 ## 📘 Les leçons
 
-👉 **[Plan des 6 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
+👉 **[Plan détaillé et conseils de travail](lecons/README.md)** — les 6 leçons sont rédigées.
+
+| # | Leçon | Volume |
+|---|-------|--------|
+| 01 | [Cadrer et concevoir un produit : du problème réel au cahier des charges](lecons/01-cadrer-concevoir-produit.md) | 5 h |
+| 02 | [Assembler un produit multi-clients : web + mobile + API](lecons/02-assembler-produit-multi-clients.md) | 6 h |
+| 03 | [Intégrer une fonctionnalité IA dans un produit : coûts, erreurs, garde-fous](lecons/03-integrer-fonctionnalite-ia.md) | 4 h |
+| 04 | [Portfolio, README et présence en ligne : les 90 secondes du recruteur](lecons/04-portfolio-readme-presence.md) | 5 h |
+| 05 | [Préparation technique aux entretiens : algo, révisions ciblées, démo de 5 min](lecons/05-preparation-entretiens.md) | 10 h |
+| 06 | [Chercher : réseau, cibles locales, freelance, remote, candidatures](lecons/06-chercher-reseau-candidatures.md) | 6 h |
 
 ## Module 1 : 🛠️ Projet 8 — Le produit final
 
