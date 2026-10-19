@@ -23,7 +23,21 @@
 
 ## 📘 Les leçons
 
-👉 **[Plan des 11 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
+👉 **[Plan détaillé et conseils de travail](lecons/README.md)** — les 11 leçons sont rédigées.
+
+| # | Leçon | Volume |
+|---|-------|--------|
+| 01 | [Apache, VirtualHosts, et le modèle d'exécution PHP](lecons/01-apache-et-modele-execution.md) | 4 h |
+| 02 | [`.htaccess` : réécriture d'URL, protection de dossier, redirections](lecons/02-htaccess.md) | 4 h |
+| 03 | [PHP 8 moderne : typage, `match`, enums, classes, namespaces](lecons/03-php-8-moderne.md) | 5 h |
+| 04 | [Superglobales, sessions, cookies, upload de fichiers](lecons/04-superglobales-sessions-uploads.md) | 4 h |
+| 05 | [PDO et requêtes préparées](lecons/05-pdo-requetes-preparees.md) | 4 h |
+| 06 | [Composer et l'autoloading PSR-4](lecons/06-composer-autoloading-psr4.md) | 3 h |
+| 07 | [Le pattern front controller](lecons/07-front-controller.md) | 3 h |
+| 08 | [Un routeur maison](lecons/08-routeur-maison.md) | 5 h |
+| 09 | [Contrôleurs, modèles, vues et échappement systématique](lecons/09-controleurs-modeles-vues-echappement.md) | 6 h |
+| 10 | [Auth maison : inscription, connexion, sessions, jeton CSRF](lecons/10-auth-maison-csrf.md) | 5 h |
+| 11 | [Laravel : routing, Eloquent, Blade, validation, Breeze, Artisan](lecons/11-laravel.md) | 12 h |
 
 ## Module 1 : L'environnement PHP réel — Apache & le modèle d'exécution
 
