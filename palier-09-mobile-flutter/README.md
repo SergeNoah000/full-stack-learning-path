@@ -19,7 +19,19 @@
 
 ## 📘 Les leçons
 
-👉 **[Plan des 9 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
+👉 **[Plan détaillé et conseils de travail](lecons/README.md)** — les 9 leçons sont rédigées.
+
+| # | Leçon | Volume |
+|---|-------|--------|
+| 01 | [Dart : syntaxe, classes, `final`/`const`, null safety](lecons/01-dart-syntaxe-null-safety.md) | 4 h |
+| 02 | [Dart : collections, Futures, Streams](lecons/02-dart-collections-futures-streams.md) | 4 h |
+| 03 | [Flutter : tout est widget, l'UI est une fonction de l'état](lecons/03-flutter-tout-est-widget.md) | 4 h |
+| 04 | [Widgets de mise en page : Scaffold, Column, Row, Stack, ListView](lecons/04-widgets-mise-en-page.md) | 5 h |
+| 05 | [État local : StatefulWidget, setState, cycle de vie](lecons/05-etat-local-setstate.md) | 4 h |
+| 06 | [Navigation : routes, passage de données, retour de résultat](lecons/06-navigation.md) | 3 h |
+| 07 | [Gestion d'état : Riverpod](lecons/07-gestion-etat-riverpod.md) | 5 h |
+| 08 | [HTTP avec dio, sérialisation JSON ↔ classes, états d'écran](lecons/08-http-dio-json-etats-ecran.md) | 5 h |
+| 09 | [Persistance locale et mode hors-ligne](lecons/09-persistance-locale-hors-ligne.md) | 6 h |
 
 ## Module 1 : Dart
 
