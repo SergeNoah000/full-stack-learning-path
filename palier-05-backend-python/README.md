@@ -20,7 +20,21 @@
 
 ## 📘 Les leçons
 
-👉 **[Plan des 11 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
+👉 **[Plan détaillé et conseils de travail](lecons/README.md)** — les 11 leçons sont rédigées.
+
+| # | Leçon | Volume |
+|---|-------|--------|
+| 01 | [Le langage Python](lecons/01-le-langage-python.md) | 4 h |
+| 02 | [Comprehensions, fonctions, `*args`/`**kwargs`](lecons/02-comprehensions-fonctions.md) | 4 h |
+| 03 | [Classes, modules, `venv`, type hints et `mypy`](lecons/03-classes-modules-venv-typage.md) | 4 h |
+| 04 | [HTTP nu et WSGI : ce qu'est vraiment une app web Python](lecons/04-http-nu-et-wsgi.md) | 4 h |
+| 05 | [Construire un routeur (table de routes, paramètres d'URL)](lecons/05-construire-un-routeur.md) | 5 h |
+| 06 | [Objets `Request` et `Response`, et les vues](lecons/06-request-response-et-vues.md) | 5 h |
+| 07 | [Une couche modèles : accès SQLite avec requêtes préparées](lecons/07-couche-modeles-sqlite.md) | 4 h |
+| 08 | [Templates (`string.Template` puis Jinja2) + servir avec gunicorn](lecons/08-templates-et-gunicorn.md) | 4 h |
+| 09 | [Flask : le micro-framework](lecons/09-flask.md) | 6 h |
+| 10 | [FastAPI : Pydantic, validation, OpenAPI, async](lecons/10-fastapi.md) | 6 h |
+| 11 | [Django : le framework « batteries incluses »](lecons/11-django.md) | 10 h |
 
 ## Module 1 : Le langage Python
 
