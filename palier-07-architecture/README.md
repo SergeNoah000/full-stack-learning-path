@@ -18,7 +18,17 @@
 
 ## 📘 Les leçons
 
-👉 **[Plan des 7 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
+👉 **[Plan détaillé et conseils de travail](lecons/README.md)** — les 7 leçons sont rédigées.
+
+| # | Leçon | Volume |
+|---|-------|--------|
+| 01 | [SOLID appliqué à ton propre code](lecons/01-solid.md) | 5 h |
+| 02 | [DRY, KISS, YAGNI — et leurs limites](lecons/02-dry-kiss-yagni.md) | 3 h |
+| 03 | [Refactoring guidé : reprendre le projet 4 sans changer son comportement](lecons/03-refactoring-guide.md) | 6 h |
+| 04 | [Design patterns du quotidien : Repository, Factory, Strategy, Observer](lecons/04-design-patterns.md) | 5 h |
+| 05 | [Monolithe modulaire, microservices, files et événements](lecons/05-monolithe-microservices-evenements.md) | 4 h |
+| 06 | [Caching, pagination, rate limiting, idempotence](lecons/06-cache-pagination-ratelimit-idempotence.md) | 4 h |
+| 07 | [Scalabilité : vertical/horizontal, load balancer, statelessness](lecons/07-scalabilite.md) | 4 h |
 
 ## Module 1 : Principes de conception
 
