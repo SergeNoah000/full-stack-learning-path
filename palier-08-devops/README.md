@@ -21,7 +21,20 @@
 
 ## 📘 Les leçons
 
-👉 **[Plan des 10 leçons du palier](lecons/README.md)** — ⏳ leçons en cours de rédaction ; en attendant, travaille les modules ci-dessous avec les [ressources du palier](../ressources.md) et prépare l'[épreuve de sortie](evaluation.md), qui est complète.
+👉 **[Plan détaillé et conseils de travail](lecons/README.md)** — les 10 leçons sont rédigées.
+
+| # | Leçon | Volume |
+|---|-------|--------|
+| 01 | [Linux : utilisateurs, permissions, processus](lecons/01-linux-utilisateurs-permissions-processus.md) | 4 h |
+| 02 | [systemd : services, systemctl, journalctl](lecons/02-systemd-services.md) | 3 h |
+| 03 | [SSH en profondeur : clés, config, tunnels, durcissement](lecons/03-ssh-en-profondeur.md) | 3 h |
+| 04 | [Réseau pratique : ports, curl, dig, TLS et certificats](lecons/04-reseau-pratique.md) | 3 h |
+| 05 | [Reverse proxy : Nginx devant une application](lecons/05-reverse-proxy-nginx.md) | 4 h |
+| 06 | [Docker : images, conteneurs, Dockerfile, multi-stage](lecons/06-docker.md) | 6 h |
+| 07 | [Docker Compose : app + base + proxy en une commande](lecons/07-docker-compose.md) | 5 h |
+| 08 | [CI/CD avec GitHub Actions : workflows, secrets, environnements](lecons/08-cicd-github-actions.md) | 6 h |
+| 09 | [Déployer et sécuriser un VPS : non-root, ufw, fail2ban, HTTPS](lecons/09-deployer-securiser-vps.md) | 6 h |
+| 10 | [Observabilité : logs, monitoring, sauvegardes testées, diagnostic](lecons/10-observabilite.md) | 5 h |
 
 ## Module 1 : Linux & réseau approfondis
 
